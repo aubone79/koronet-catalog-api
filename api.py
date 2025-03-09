@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.dialects.postgresql import JSONB
 import os
 
-# Configuración de la conexión a PostgreSQL
+# Configuración de la -1 conexión a PostgreSQL
 DATABASE_URL = "postgresql://koronet_catalog_user:XIoF38hYTWXUeddLg3wcpqgKOihxbiA4@dpg-cv69pk7noe9s73bt9ls0-a.oregon-postgres.render.com:5432/koronet_catalog"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
