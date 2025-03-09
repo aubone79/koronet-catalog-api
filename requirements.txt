@@ -1,1 +1,3 @@
-wheel
+Flask
+gunicorn
+requests
